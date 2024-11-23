@@ -1,0 +1,50 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    padding: 0px 40px;
+    text-align: left;
+}
+.about{
+    text-align: right;
+    padding: 0px 0px 10px;
+}
+.container{
+    display: flex;
+   gap: 20px;
+    background-image: url('assets/backgroundImage.png');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+.intro{
+  
+    flex: 1 1 auto;
+    text-align: left;
+    margin: 30px;
+    padding: 56px 40px;
+    border: 0px solid black;
+}
+@media(min-width:600px) {
+    .intro{
+        flex: 1 1 auto;
+    }
+    
+}
+@media(min-width:1440px){
+    .intro{
+        flex: 1 1 auto;
+    }
+}
+.connect{
+    color: aqua;
+    
+
+}
+.socialmedia{ 
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+}
