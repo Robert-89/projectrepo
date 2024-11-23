@@ -2,17 +2,27 @@ html,body{
     margin: 0;
     padding: 0;
 }
+.start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
 a{
-    padding: 0px 40px;
+    
     text-align: left;
+    padding-left: 20px;
+    
+    
+    
 }
 .about{
     text-align: right;
-    padding: 0px 0px 10px;
+    padding-right: 20px;
 }
 .container{
     display: flex;
-   gap: 20px;
+    gap: 20px;
     background-image: url('assets/backgroundImage.png');
     min-height: 100vh;
     background-size: cover;
@@ -24,18 +34,23 @@ a{
     flex: 1 1 auto;
     text-align: left;
     margin: 30px;
-    padding: 56px 40px;
+    padding: 56px 120px;
     border: 0px solid black;
+    font-size: 1rem;
 }
 @media(min-width:600px) {
     .intro{
         flex: 1 1 auto;
+        font-size: 1.2rem;
+        padding: 40px 80px;
     }
     
 }
 @media(min-width:1440px){
     .intro{
         flex: 1 1 auto;
+        font-size: 1.5;
+        padding: 56px 120px;
     }
 }
 .connect{
@@ -46,5 +61,20 @@ a{
 .socialmedia{ 
     display: flex;
     flex-direction: row;
-    margin: 2px;
+    padding: 0px 10px;
+}
+.twitter{
+    padding: 0px 10px;
+}
+.linkdin{
+    padding: 0px 10px;
+}
+.media{
+    padding: 0px 10px;
+}
+.github{
+    padding: 0px 10px;
+}
+.twohand{
+    padding: 0px 10px;
 }
